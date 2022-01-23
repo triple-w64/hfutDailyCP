@@ -41,7 +41,7 @@
 
   ![change_yml](https://github.com/choya-lee/hfutDailyCP/raw/master/img/change_yml.png)
 
-- 检查Action，如下图则代表运行成功
+- 检查Action，如下图则代表配置成功
 
   ![success](https://github.com/choya-lee/hfutDailyCP/raw/master/img/success.png)
 
