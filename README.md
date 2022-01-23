@@ -34,7 +34,14 @@
 
 - 在`name`栏中填`INFO`，`value`中填入`账号`和`密码`，用空格隔开
 
-  ![info](https://github.com/choya-lee/hfutDailyCP/raw/master/img/info.png)
+
+![info](https://github.com/choya-lee/hfutDailyCP/raw/master/img/info.png)
+
+- 务必更改签到时间，建议将选中处改为10、20、25
+
+  ![change_yml](https://github.com/choya-lee/hfutDailyCP/raw/master/img/change_yml.png)
+
+- 检查Action，如下图则代表运行成功![success](https://github.com/choya-lee/hfutDailyCP/raw/master/img/success.png)
 
 
 ---
