@@ -46,7 +46,7 @@
 
   ![change_yml](https://github.com/choya-lee/hfutDailyCP/raw/master/img/change_yml.png)
 
-- 检查Action，如下图则代表配置成功
+- 如上一步更改时间，则可检查Action，出现下图则代表配置成功
 
   ![success](https://github.com/choya-lee/hfutDailyCP/raw/master/img/success.png)
 
