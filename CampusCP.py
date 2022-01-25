@@ -8,7 +8,7 @@ import base64
 from Crypto.Cipher import AES
 from requests.sessions import session
 from retry import retry
- 
+from PushInfo import push_info
 
 class hfuter:
     def __init__(self, username, password) -> None:
@@ -291,14 +291,11 @@ class hfuter:
 
 
 if __name__ == "__main__":
-
-    i = 1
-    while i < len(sys.argv):
-        print(sys.argv[i])
-        stu = hfuter(username=sys.argv[i], password=sys.argv[i+1])
-        if stu.daily_checkin():
-            print("签到成功~")
-        else:
-            print("签到失败！")
-        print()
-        i+=2
+    stu = hfuter(username=sys.argv[1], password=sys.argv[2])
+    if stu.daily_checkin():
+        print("签到成功~")
+        if len(sys.argv) >= 4:
+            push_info(sys.argv[3], "签到成功~")
+    else:
+        print("签到失败！")
+    print()
