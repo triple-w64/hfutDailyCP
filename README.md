@@ -37,6 +37,11 @@
 
 ![info](https://github.com/choya-lee/hfutDailyCP/raw/master/img/info.png)
 
+- 若需要推送到微信，可以使用内置的推送加服务
+
+ 1. 在`http://pushplus.hxtrip.com/message`登陆微信，并按提示操作，获取`token`
+ 2. 将获取到的`token`作为上述`secret`中第三个值进行设置，即：在`name`栏中填`INFO`，`value`中填入`账号`、`密码`和`token`，用空格隔开
+
 - 务必更改签到时间，建议将选中处改为10、20、25
 
   ![change_yml](https://github.com/choya-lee/hfutDailyCP/raw/master/img/change_yml.png)
